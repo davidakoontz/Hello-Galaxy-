@@ -39,10 +39,10 @@
 		638A1993261920F8009DE6C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638A1996261920F8009DE6C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		638A1998261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello Galaxy?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638A199D261920F8009DE6C2 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638A19A1261920F8009DE6C2 /* Hello_Galaxy_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Galaxy_Tests.swift; sourceTree = "<group>"; };
 		638A19A3261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello Galaxy?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638A19A8261920F8009DE6C2 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638A19AC261920F8009DE6C2 /* Hello_Galaxy_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Galaxy_UITests.swift; sourceTree = "<group>"; };
 		638A19AE261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				638A198E261920F6009DE6C2 /* Hello Galaxy? */,
-				638A19A0261920F8009DE6C2 /* Hello Galaxy?Tests */,
-				638A19AB261920F8009DE6C2 /* Hello Galaxy?UITests */,
+				638A19A0261920F8009DE6C2 /* Tests */,
+				638A19AB261920F8009DE6C2 /* UITests */,
 				638A198D261920F6009DE6C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				638A198C261920F6009DE6C2 /* Hello Galaxy?.app */,
-				638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */,
-				638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */,
+				638A199D261920F8009DE6C2 /* Tests.xctest */,
+				638A19A8261920F8009DE6C2 /* UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,22 +112,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		638A19A0261920F8009DE6C2 /* Hello Galaxy?Tests */ = {
+		638A19A0261920F8009DE6C2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				638A19A1261920F8009DE6C2 /* Hello_Galaxy_Tests.swift */,
 				638A19A3261920F8009DE6C2 /* Info.plist */,
 			);
-			path = "Hello Galaxy?Tests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		638A19AB261920F8009DE6C2 /* Hello Galaxy?UITests */ = {
+		638A19AB261920F8009DE6C2 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				638A19AC261920F8009DE6C2 /* Hello_Galaxy_UITests.swift */,
 				638A19AE261920F8009DE6C2 /* Info.plist */,
 			);
-			path = "Hello Galaxy?UITests";
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +150,9 @@
 			productReference = 638A198C261920F6009DE6C2 /* Hello Galaxy?.app */;
 			productType = "com.apple.product-type.application";
 		};
-		638A199C261920F8009DE6C2 /* Hello Galaxy?Tests */ = {
+		638A199C261920F8009DE6C2 /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?Tests" */;
+			buildConfigurationList = 638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				638A1999261920F8009DE6C2 /* Sources */,
 				638A199A261920F8009DE6C2 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				638A199F261920F8009DE6C2 /* PBXTargetDependency */,
 			);
-			name = "Hello Galaxy?Tests";
+			name = Tests;
 			productName = "Hello Galaxy?Tests";
-			productReference = 638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */;
+			productReference = 638A199D261920F8009DE6C2 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		638A19A7261920F8009DE6C2 /* Hello Galaxy?UITests */ = {
+		638A19A7261920F8009DE6C2 /* UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?UITests" */;
+			buildConfigurationList = 638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "UITests" */;
 			buildPhases = (
 				638A19A4261920F8009DE6C2 /* Sources */,
 				638A19A5261920F8009DE6C2 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				638A19AA261920F8009DE6C2 /* PBXTargetDependency */,
 			);
-			name = "Hello Galaxy?UITests";
+			name = UITests;
 			productName = "Hello Galaxy?UITests";
-			productReference = 638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */;
+			productReference = 638A19A8261920F8009DE6C2 /* UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,8 +222,8 @@
 			projectRoot = "";
 			targets = (
 				638A198B261920F6009DE6C2 /* Hello Galaxy? */,
-				638A199C261920F8009DE6C2 /* Hello Galaxy?Tests */,
-				638A19A7261920F8009DE6C2 /* Hello Galaxy?UITests */,
+				638A199C261920F8009DE6C2 /* Tests */,
+				638A19A7261920F8009DE6C2 /* UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -463,7 +463,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99568KA9SE;
-				INFOPLIST_FILE = "Hello Galaxy?Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,7 +485,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99568KA9SE;
-				INFOPLIST_FILE = "Hello Galaxy?Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,7 +506,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99568KA9SE;
-				INFOPLIST_FILE = "Hello Galaxy?UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99568KA9SE;
-				INFOPLIST_FILE = "Hello Galaxy?UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?Tests" */ = {
+		638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				638A19B5261920F8009DE6C2 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?UITests" */ = {
+		638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				638A19B8261920F8009DE6C2 /* Debug */,
