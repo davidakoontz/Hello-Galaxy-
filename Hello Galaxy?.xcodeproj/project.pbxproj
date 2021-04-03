@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638A1990261920F6009DE6C2 /* Hello_Galaxy_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A198F261920F6009DE6C2 /* Hello_Galaxy_App.swift */; };
+		638A1992261920F6009DE6C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A1991261920F6009DE6C2 /* ContentView.swift */; };
+		638A1994261920F8009DE6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638A1993261920F8009DE6C2 /* Assets.xcassets */; };
+		638A1997261920F8009DE6C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638A1996261920F8009DE6C2 /* Preview Assets.xcassets */; };
+		638A19A2261920F8009DE6C2 /* Hello_Galaxy_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A19A1261920F8009DE6C2 /* Hello_Galaxy_Tests.swift */; };
+		638A19AD261920F8009DE6C2 /* Hello_Galaxy_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A19AC261920F8009DE6C2 /* Hello_Galaxy_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638A199E261920F8009DE6C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638A1984261920F6009DE6C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638A198B261920F6009DE6C2;
+			remoteInfo = "Hello Galaxy?";
+		};
+		638A19A9261920F8009DE6C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638A1984261920F6009DE6C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638A198B261920F6009DE6C2;
+			remoteInfo = "Hello Galaxy?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		638A198C261920F6009DE6C2 /* Hello Galaxy?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Galaxy?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638A198F261920F6009DE6C2 /* Hello_Galaxy_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Galaxy_App.swift; sourceTree = "<group>"; };
+		638A1991261920F6009DE6C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		638A1993261920F8009DE6C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		638A1996261920F8009DE6C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		638A1998261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello Galaxy?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638A19A1261920F8009DE6C2 /* Hello_Galaxy_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Galaxy_Tests.swift; sourceTree = "<group>"; };
+		638A19A3261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello Galaxy?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638A19AC261920F8009DE6C2 /* Hello_Galaxy_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_Galaxy_UITests.swift; sourceTree = "<group>"; };
+		638A19AE261920F8009DE6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638A1989261920F6009DE6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A199A261920F8009DE6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A19A5261920F8009DE6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		638A1983261920F6009DE6C2 = {
+			isa = PBXGroup;
+			children = (
+				638A198E261920F6009DE6C2 /* Hello Galaxy? */,
+				638A19A0261920F8009DE6C2 /* Hello Galaxy?Tests */,
+				638A19AB261920F8009DE6C2 /* Hello Galaxy?UITests */,
+				638A198D261920F6009DE6C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		638A198D261920F6009DE6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638A198C261920F6009DE6C2 /* Hello Galaxy?.app */,
+				638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */,
+				638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638A198E261920F6009DE6C2 /* Hello Galaxy? */ = {
+			isa = PBXGroup;
+			children = (
+				638A198F261920F6009DE6C2 /* Hello_Galaxy_App.swift */,
+				638A1991261920F6009DE6C2 /* ContentView.swift */,
+				638A1993261920F8009DE6C2 /* Assets.xcassets */,
+				638A1998261920F8009DE6C2 /* Info.plist */,
+				638A1995261920F8009DE6C2 /* Preview Content */,
+			);
+			path = "Hello Galaxy?";
+			sourceTree = "<group>";
+		};
+		638A1995261920F8009DE6C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				638A1996261920F8009DE6C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		638A19A0261920F8009DE6C2 /* Hello Galaxy?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				638A19A1261920F8009DE6C2 /* Hello_Galaxy_Tests.swift */,
+				638A19A3261920F8009DE6C2 /* Info.plist */,
+			);
+			path = "Hello Galaxy?Tests";
+			sourceTree = "<group>";
+		};
+		638A19AB261920F8009DE6C2 /* Hello Galaxy?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				638A19AC261920F8009DE6C2 /* Hello_Galaxy_UITests.swift */,
+				638A19AE261920F8009DE6C2 /* Info.plist */,
+			);
+			path = "Hello Galaxy?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638A198B261920F6009DE6C2 /* Hello Galaxy? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638A19B1261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?" */;
+			buildPhases = (
+				638A1988261920F6009DE6C2 /* Sources */,
+				638A1989261920F6009DE6C2 /* Frameworks */,
+				638A198A261920F6009DE6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Galaxy?";
+			productName = "Hello Galaxy?";
+			productReference = 638A198C261920F6009DE6C2 /* Hello Galaxy?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		638A199C261920F8009DE6C2 /* Hello Galaxy?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?Tests" */;
+			buildPhases = (
+				638A1999261920F8009DE6C2 /* Sources */,
+				638A199A261920F8009DE6C2 /* Frameworks */,
+				638A199B261920F8009DE6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638A199F261920F8009DE6C2 /* PBXTargetDependency */,
+			);
+			name = "Hello Galaxy?Tests";
+			productName = "Hello Galaxy?Tests";
+			productReference = 638A199D261920F8009DE6C2 /* Hello Galaxy?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		638A19A7261920F8009DE6C2 /* Hello Galaxy?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?UITests" */;
+			buildPhases = (
+				638A19A4261920F8009DE6C2 /* Sources */,
+				638A19A5261920F8009DE6C2 /* Frameworks */,
+				638A19A6261920F8009DE6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638A19AA261920F8009DE6C2 /* PBXTargetDependency */,
+			);
+			name = "Hello Galaxy?UITests";
+			productName = "Hello Galaxy?UITests";
+			productReference = 638A19A8261920F8009DE6C2 /* Hello Galaxy?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638A1984261920F6009DE6C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					638A198B261920F6009DE6C2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					638A199C261920F8009DE6C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 638A198B261920F6009DE6C2;
+					};
+					638A19A7261920F8009DE6C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 638A198B261920F6009DE6C2;
+					};
+				};
+			};
+			buildConfigurationList = 638A1987261920F6009DE6C2 /* Build configuration list for PBXProject "Hello Galaxy?" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638A1983261920F6009DE6C2;
+			productRefGroup = 638A198D261920F6009DE6C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638A198B261920F6009DE6C2 /* Hello Galaxy? */,
+				638A199C261920F8009DE6C2 /* Hello Galaxy?Tests */,
+				638A19A7261920F8009DE6C2 /* Hello Galaxy?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638A198A261920F6009DE6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638A1997261920F8009DE6C2 /* Preview Assets.xcassets in Resources */,
+				638A1994261920F8009DE6C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A199B261920F8009DE6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A19A6261920F8009DE6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638A1988261920F6009DE6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638A1992261920F6009DE6C2 /* ContentView.swift in Sources */,
+				638A1990261920F6009DE6C2 /* Hello_Galaxy_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A1999261920F8009DE6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638A19A2261920F8009DE6C2 /* Hello_Galaxy_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638A19A4261920F8009DE6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638A19AD261920F8009DE6C2 /* Hello_Galaxy_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		638A199F261920F8009DE6C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638A198B261920F6009DE6C2 /* Hello Galaxy? */;
+			targetProxy = 638A199E261920F8009DE6C2 /* PBXContainerItemProxy */;
+		};
+		638A19AA261920F8009DE6C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638A198B261920F6009DE6C2 /* Hello Galaxy? */;
+			targetProxy = 638A19A9261920F8009DE6C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		638A19AF261920F8009DE6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		638A19B0261920F8009DE6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638A19B2261920F8009DE6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hello Galaxy?/Preview Content\"";
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hello Galaxy?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		638A19B3261920F8009DE6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hello Galaxy?/Preview Content\"";
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hello Galaxy?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		638A19B5261920F8009DE6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				INFOPLIST_FILE = "Hello Galaxy?Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Galaxy?.app/Hello Galaxy?";
+			};
+			name = Debug;
+		};
+		638A19B6261920F8009DE6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				INFOPLIST_FILE = "Hello Galaxy?Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Galaxy?.app/Hello Galaxy?";
+			};
+			name = Release;
+		};
+		638A19B8261920F8009DE6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				INFOPLIST_FILE = "Hello Galaxy?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hello Galaxy?";
+			};
+			name = Debug;
+		};
+		638A19B9261920F8009DE6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99568KA9SE;
+				INFOPLIST_FILE = "Hello Galaxy?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LifeWorksIQ.Hello-Galaxy-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hello Galaxy?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638A1987261920F6009DE6C2 /* Build configuration list for PBXProject "Hello Galaxy?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638A19AF261920F8009DE6C2 /* Debug */,
+				638A19B0261920F8009DE6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638A19B1261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638A19B2261920F8009DE6C2 /* Debug */,
+				638A19B3261920F8009DE6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638A19B4261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638A19B5261920F8009DE6C2 /* Debug */,
+				638A19B6261920F8009DE6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638A19B7261920F8009DE6C2 /* Build configuration list for PBXNativeTarget "Hello Galaxy?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638A19B8261920F8009DE6C2 /* Debug */,
+				638A19B9261920F8009DE6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638A1984261920F6009DE6C2 /* Project object */;
+}
